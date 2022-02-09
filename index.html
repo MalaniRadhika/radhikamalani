@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RadhikaMalani</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- ########################################### NAVBAR #################################################  -->
+  <div class="div">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-purple">
+      <div class="container">
+        <a class="navbar-brand" href="#">Radhika Malani</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class=" menu-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class=" menu-link" href="#about">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class=" menu-link" href="#">Services</a>
+
+              <!-- <a class="menu-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a> -->
+              <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
+            </li>
+            <li class="nav-item">
+              <a class="menu-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info  btn-sm" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- ###################################################### SLIDER ##############################################3  -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active slider-img">
+        <img src="image/one.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption slider-caption">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item  slider-img">
+        <img src="image/two.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption slider-caption text-start">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item slider-img">
+        <img src="image/three.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption slider-caption text-end">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- ################################################################# services #######################################33 -->
+  <section id="facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <div class="fact-body">
+            <div class="fact-img p-4 text-center">
+              <img src="image/two.jpg" alt="">
+            </div>
+            <div class="fact-text text-center px-3">
+
+              <h3 style="padding-bottom:13px;">Static Website Development</h3>
+              <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Quasi. consectetur adipisicing elit. Ipsa error ad repellendus at rerum fugit!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="fact-body">
+            <div class="fact-img p-4 text-center">
+              <img src="image/two.jpg" alt="">
+            </div>
+            <div class="fact-text text-center px-3">
+
+              <h3 style="padding-bottom:13px;">Static Website Development</h3>
+              <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Quasi. consectetur adipisicing elit. Ipsa error ad repellendus at rerum fugit!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="fact-body">
+            <div class="fact-img p-4 text-center">
+              <img src="image/two.jpg" alt="">
+            </div>
+            <div class="fact-text text-center px-3">
+
+              <h3 style="padding-bottom:13px;">Static Website Development</h3>
+              <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Quasi. consectetur adipisicing elit. Ipsa error ad repellendus at rerum fugit!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ########################################### ABOUT #################################################-->
+  <section id="about">
+    <div class="container">
+      <div class="section-title text-center">
+        <h3>----About----</h3>
+        <h2>Know More About Me</h2>
+      </div>
+      <div class="row">
+        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae exercitationem adipisci sit
+          rerum optio explicabo nemo debitis itaque. Consectetur error fugiat sit asperiores rerum repellat accusantium,
+          illum laborum quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, debitis.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <div class="profile-img">
+            <img src="image/five.jpg" alt="" width="100%">
+          </div>
+        </div>
+        <div class="col-md-8 p-3">
+          <div class="profile-containt">
+            <div class="col-md-12">
+              <h2 class="fs-1 fw-bold">Web Developer & UI/UX Designer</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente et quod aut, esse dolores in
+                odio eum consequuntur sint nesciunt, magni ad. Minima, tenetur! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Illum, odio!</p>
+            </div>
+            <div class="row details">
+              <div class="col-md-6">
+                <ul class="p-0">
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="p-0">
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                  <li class="my-3"><i class="bi bi-chevron-right me-3 text-primary"></i><strong>Name</strong> : Radhika
+                    Malani</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12 my-4">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti beatae odio alias aut,
+                mollitia enim placeat laboriosam expedita! Saepe quas incidunt laboriosam qui quaerat est, earum, in,
+                impedit eos voluptates accusantium blanditiis fuga perspiciatis laudantium minus. Quo, sequi dignissimos
+                non dicta perspiciatis accusamus dolorem voluptates temporibus earum fugiat fugit! Lorem ipsum dolor sit
+                amet consectetur, adipisicing elit. Amet iusto animi suscipit eum! Nihil alias sed enim at eos hic
+                reprehenderit tempora fugit repudiandae laborum rerum atque esse assumenda vel tenetur facilis quos,
+                labore dolor soluta distinctio nisi optio. Quia aperiam consequatur sit dolorum cum officiis natus ipsam
+                enim eum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti perferendis eveniet
+                consectetur, aperiam explicabo quos. Voluptatum assumenda porro natus iusto?</p>
+            </div>
+            <!-- <button class="btn btn-primary">CHECK RESUME</button> -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              CHECK RESUME HERE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ###########3 MODEL STARTED ####################  -->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+    <!-- Modal -->
+
+    <!-- here we have converted noraml LIVE model into SCROLLABELE by adding class" modal-dialog modal-dialog-centered modal-dialog-scrollable" -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">My Resume</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- to link our resume pdf we have used iframe -->
+            <!-- to remove download option available with pdf use #toolbar=0 in source  -->
+            <iframe src="image/R-Sem3.marksheet.pdf.pdf#toolbar=0" width="100%" height="700px" frameborder="0"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ################################################## SKILLS #########################################################-->
+  <section id="skills">
+    <div class="container">
+      <div class="section-title text-center">
+        <h3>----SKILLS----</h3>
+        <h2>My Technical skills</h2>
+      </div>
+      <div class="row">
+        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae exercitationem adipisci sit
+          rerum optio explicabo nemo debitis itaque. Consectetur error fugiat sit asperiores rerum repellat accusantium,
+          illum laborum quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, debitis.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sskill 1 end here  -->
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 2 end here -->
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 3 end here  -->
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 4 end here  -->
+        </div>
+        <!-- 1st column ends here-->
+        <div class="col-md-6">
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 1 end here  -->
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 2 end here  -->
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 3 ends here  -->
+          <div class="skill">
+            <div class="row py-2">
+              <div class="col-6 my-2 px-3 fw-bold">HTML</div>
+              <!-- text-end :- shifts 90% at the end  -->
+              <div class="col-6 text-end fw-bold my-2 px-3">90%</div>
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- skill 4 end here  -->
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ################################################## PORTFOLIO #########################################################-->
+<section id="portfolio">
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>----About----</h3>
+      <h2>Highlites of Project Work</h2>
+    </div>
+    <div class="row">
+      <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae exercitationem adipisci sit
+        rerum optio explicabo nemo debitis itaque. Consectetur error fugiat sit asperiores rerum repellat accusantium,
+        illum laborum quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, debitis.</p>
+    </div>
+    <!-- first row  -->
+    <div class="row">
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- second row  -->
+    <div class="row">
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-3 p-3">
+        <div class="portfolio-img">
+          <img src="image/two.jpg" width="100%" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ####################################################### CONTACT ############################################3  -->
+<section id="contact">
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>----Contact----</h3>
+      <h2> Get Into Touch </h2>
+    </div>
+    <div class="row">
+      <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae exercitationem adipisci sit
+        rerum optio explicabo nemo debitis itaque. Consectetur error fugiat sit asperiores rerum repellat accusantium,
+        illum laborum quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, debitis.</p>
+    </div>
+
+    <div class="div">
+      <div class="row my-3">
+        <div class="col-md-6 my-3">
+          <div class="col-12 text-center bd p-3">
+            <i class="bi bi-geo-alt col-pur"></i>
+            <h3 class="fw-bold mt-2">Address</h3>
+            <p>Maha Bank Colony , Sai Nagar ,Amt.</p>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6 my-3 ">
+              <div class="div text-center bd p-4">
+                <i class="bi bi-envelope-open-fill col-pur"></i>
+                <h3 class="mt-2">Email Us</h3>
+                <p>radhikamalani19002@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="div text-center bd p-4">
+                <i class="bi bi-telephone-forward-fill col-pur"></i>
+                <h3 class="mt-2 ">Email Us</h3>
+                <p>radhikamalani19002@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- form starts here -->
+        <div class="col-md-6 my-3 ">
+          <div class="div bd p-4">
+            <form>
+              <div class="mb-4">
+                <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name" aria-describedby="emailHelp"> -->
+                <div class="row">
+                  <div class="col-md-6 my-2">
+                    <input type="text" class="form-control ibd"  placeholder="Enter Your Name" >
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <input type="email" class="form-control ibd" id="exampleInputEmail1" placeholder="Enter Your Email" aria-describedby="emailHelp">
+                  </div>
+                </div>
+              </div>
+              <div class="mb-4 my-2">                
+                <input type="email" class="form-control ibd" id="exampleInputEmail1" placeholder="Subject" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-4 my-2">
+                <textarea name="" id="" cols="78" rows="5" class="form-control ibd" placeholder="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- #################################################### FOOTER #################################  -->
+<footer id="footer" class="bg-dark p-0">
+  <div class="container-fluid">
+    <div class="containt text-center text-white pt-5 px-5 p-3">
+      <h2>Radhika Malani</h2>
+      <p> eligendi ducimus sequi, architecto reprehenderit laborum numquam quos ratione fugiat laudantium, sint rerum aliquid magni quidem? Explicabo.</p>
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>       
+      </div> 
+      <div class="credit mt-3">
+        <p>Radhika Malani &copy; 2022 <br>Design By Radhika Malani</p>
+      </div>   
+    </div>
+  </div>
+</footer>
+</body>
+</html>

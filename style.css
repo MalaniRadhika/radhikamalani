@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.section-title{
+    padding: 50px;
+}
+.section-title h3{
+    color:purple;
+}
+.section-title h2{
+    display: inline;
+    border-bottom: 4px solid red;
+}
+ul{
+    list-style: none;
+}
+.bd{
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377);
+}
+.ibd{
+    border: 2px solid purple;
+}
+.col-pur{
+    color: purple;
+    font-size: 30px;
+}
+/* <!-- ########################################### NAVBAR #################################################  --> */
+.bg-purple{
+    background-color: purple;
+}
+.menu-link{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu-link:hover{
+    color: yellow;
+}
+/* <!-- ########################################### SLIDER #################################################  --> */
+.slider-img img{
+    height: 100vh;   
+}
+.slider-caption{
+    margin-bottom: 18%;
+}
+.slider-caption h5{
+    font-size: 40px;
+}
+.slider-caption p{
+    font-size: 20px;
+}
+/* <!-- ########################################### SERVICES #################################################  --> */
+.fact-body{
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 30px rgba(59, 57, 57, 0.411);
+    /* height: 200px; */
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#facts .fact-body .fact-img img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+#facts .fact-body .fact-text h3{
+    font-size: 29px;
+    /* font-weight: bold; */
+}
+.fact-body:hover{
+    background-color: rgb(41, 18, 143);
+    color: aliceblue;
+    /* margin-bottom: 60px; */
+    /* to add transition effect  */
+    margin-top: -30px;
+}
+ /* <!-- ########################################### SERVICES #################################################  -->  */
+.profile-containt h2{
+    color: purple;
+}
+.profile-img img{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.details li{
+    font-size: 18px;
+}
+/* ############################################ portfolio #############################  */
+.portfolio-img img{ 
+    border-radius: 10px;
+}
+.portfolio-img img:hover{
+    margin-top: -18px;
+    box-shadow: 0px 0px 20px black;
+}
+/* ######################################################################################  */
+#footer .social-icons a{
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgb(23, 0, 128);
+    padding: 8px 0;
+    margin-right: 4px;
+    line-height: 1;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    /* color:black; */
+    color: aliceblue;
+    text-align: center;
+    transition: 4px;
+    height: 37px;
+    width: 37px;
+}
+#footer .social-icons a:hover{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
